@@ -1,15 +1,18 @@
-<mat-toolbar color="primary">
+<nav class="container">
+<div class="marginated-div">
+<mat-toolbar class="gradient-nav">
    <a mat-flat-button routerLink="/" class="nav-link">
-  <span><!--ICON--> <!-- <mat-icon aria-hidden="false" aria-label="Example home icon">eco</mat-icon> --> Cool business name</span></a>
+  <span class="text-inside"><!--ICON--> <!-- <mat-icon aria-hidden="false" aria-label="Example home icon">eco</mat-icon> --> CoolName</span></a>
 
 <!--   <div class="spacer"></div>
  -->
-<div class="centered-nav">
-  <a mat-button routerLink="products">Products</a>
-  <a mat-button routerLink="aboutus">About Us</a>
-  <a mat-button routerLink="contactus">Contact Us</a>
-</div>
-<div class="buttons-login">
- <a><button mat-raised-button color="accent" routerLink="signin">Sign In</button></a>
-</div>
+<ul class="centered-nav">
+    <li><a mat-button routerLink="products">Features</a></li>
+    <li><a mat-button routerLink="aboutus">About Us</a></li>
+</ul>
+
+ <a><button mat-raised-button color="accent" routerLink="signin" class="button-login">Sign In</button></a>
+
 </mat-toolbar>
+</div>
+</nav>
