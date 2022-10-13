@@ -5,15 +5,16 @@
 }
 
 .gradient-nav {
-  background: linear-gradient(90deg, hsla(283, 83%, 86%, 1) 0%, hsla(105, 11%, 85%, 1) 100%);
-  box-shadow: 2px 2px 10px purple;
+  background: linear-gradient(90deg, hsla(205, 46%, 30%, 1) 0%, hsla(260, 29%, 36%, 1) 100%);
+   box-shadow: 2px 2px 10px ;
 }
 
 
 .nav-link {
-  background-color: turquoise;
+  background-color:inherit;
    display:flex;
    min-width: 90px;
+   color: antiquewhite;
 }
 
 .text-inside {
@@ -30,8 +31,14 @@
   margin: 0;
   padding: 0;
   text-align: center;
+  color: antiquewhite;
 }
 
+
+li:hover {
+  background: #f08080;
+  border-radius: 15px;
+}
 .button-login {
   right: 0;
   display: flex;
@@ -39,8 +46,10 @@
 }
 
 .marginated-div {
-  margin: 20px;
-  padding: 10px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-radius: 10px;
+  width: auto;
 }
 
 @media screen and (min-width: 800px) {
@@ -62,9 +71,7 @@
     padding: 0;
     max-width:none;
 }
-.button-login {
 
-}
 .spacer {
   display: none;
 }
