@@ -9,6 +9,7 @@ import { environment } from '../environments/environment';
 import { NavbarComponent } from './landingpage/navbar/navbar.component';
 import { DummyTextComponent } from './dummy-text/dummy-text.component';
 
+import { AngularMaterialModule } from './angular-material.module';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
@@ -28,8 +29,9 @@ import { HeroComponent } from './landingpage/hero/hero.component';
     MatToolbarModule,
     MatButtonModule,
     MatIconModule,
+    AngularMaterialModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
 export class AppModule { }
